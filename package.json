@@ -1,0 +1,32 @@
+{
+  "name": "immer-ob",
+  "version": "0.1.2",
+  "main": "es/index.js",
+  "types": "lib/index.ts",
+  "exports": {
+    "import": "./lib/index.ts"
+  },
+  "private": false,
+  "scripts": {
+    "lib": "node rollup.config.js"
+  },
+  "devDependencies": {
+    "fs-extra": "^9.1.0",
+    "rollup": "^1.24.0",
+    "rollup-plugin-typescript2": "^0.24.3",
+    "rollup-plugin-uglify": "^6.0.3",
+    "tslib": "^2.2.0",
+    "typescript": "^4.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ymzuiku/immer-ob.git"
+  },
+  "bugs": {
+    "url": "git+https://github.com/ymzuiku/immer-ob.git"
+  },
+  "homepage": "git+https://github.com/ymzuiku/immer-ob.git",
+  "dependencies": {
+    "immer": "^9.0.2"
+  }
+}
